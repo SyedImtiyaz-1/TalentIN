@@ -1,9 +1,38 @@
 *{
 	margin: 0;
 	padding: 0;
-	font-family: 'Roboto Condensed', sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
 
+
+/* new nav */
+/* Hamburger icon styling */
+.navbar-toggler span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+  }
+  
+  /* Hide collapsible content by default */
+  .navbar-collapse {
+    display: none;
+  }
+  
+  /* Show collapsible content when button is clicked */
+  .navbar-toggler:focus + .navbar-collapse,
+  .navbar-toggler:active + .navbar-collapse,
+  .navbar-toggler:hover + .navbar-collapse {
+    display: block;
+  }
+
+
+  
+  
+
+  
 
 #in{
     color: #ffff00;    
