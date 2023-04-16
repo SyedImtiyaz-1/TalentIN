@@ -92,3 +92,13 @@ button:hover{
 #img1{
   width: 1rem;
 }
+
+@media only screen and (min-width:200px) and (max-width:762px) {
+	
+	.main{
+		width: 900px;
+	height: 500px;
+	}
+
+
+}
